@@ -315,6 +315,7 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 PRODUCT_PACKAGES += \
+    NoCutoutOverlay \
     WifiOverlay \
     TetheringConfigOverlay
 
