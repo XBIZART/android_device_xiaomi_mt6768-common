@@ -316,6 +316,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
+    NotchBarKiller \
     WifiOverlay \
     TetheringConfigOverlay
 
