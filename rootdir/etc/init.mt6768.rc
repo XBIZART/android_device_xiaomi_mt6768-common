@@ -1222,3 +1222,6 @@ on property:persist.sys.MT6768.dt2w=1
 # to hide Magisk & co.
     chmod 440 /proc/net/unix
 
+on property:sys.boot_completed=1
+    write /proc/sys/vm/dirty_expire_centisecs 3000
+    write /proc/sys/vm/dirty_background_ratio 10
