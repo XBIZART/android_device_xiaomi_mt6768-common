@@ -243,6 +243,7 @@ PRODUCT_PACKAGES += \
     factory_init.project.rc \
     factory_init.rc \
     init.ago.rc \
+    init.performance_level.rc \
     init.connectivity.rc \
     init.mi_thermald.rc \
     init.modem.rc \
