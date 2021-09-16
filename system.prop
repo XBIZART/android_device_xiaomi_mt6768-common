@@ -44,6 +44,10 @@ sys.ipo.disable=1
 # Kernel
 ro.kernel.zio=38,108,105,16
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+
 # MDLOG
 persist.sys.mdlog_dumpback=2
 
@@ -98,3 +102,4 @@ persist.dbg.wfc_avail_ovr=1
 
 # GBoard Spacing
 ro.com.google.ime.kb_pad_port_b=1
+
