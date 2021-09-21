@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# XiaomiParts
+$(call inherit-product-if-exists, vendor/XiaomiParts/xiaomiparts.mk)
+
 # APNs
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
