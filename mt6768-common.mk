@@ -169,7 +169,9 @@ PRODUCT_PACKAGES += \
 # Neutral Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.0 \
-    android.hardware.neuralnetworks@1.0.vendor
+    android.hardware.neuralnetworks@1.0.vendor \
+    android.hardware.neuralnetworks@1.1 \
+    android.hardware.neuralnetworks@1.1.vendor
 
 # Permissions
 PRODUCT_COPY_FILES += \
