@@ -19,7 +19,7 @@ cc_library_static {
     srcs: ["init_mt6768.cpp"],
     shared_libs: ["libbase"],
     include_dirs: [
-        "system/core/base/include",
+        "system/libbase/include",
         "system/core/init"
     ]
 }
