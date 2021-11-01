@@ -8,3 +8,9 @@ java_library {
     installable: true,
     srcs: ["ImsServiceBase.java"],
 }
+
+cc_library_shared {
+    name: "libshim_camerahalserver",
+    srcs: ["libshim_camerahalserver.cpp"],
+    vendor: true,
+}

@@ -209,7 +209,8 @@ PRODUCT_PACKAGES += \
 
 # Symbols
 PRODUCT_PACKAGES += \
-    libshim_vtservice
+    libshim_vtservice\
+    libshim_camerahalserver
 
 # Thermal
 PRODUCT_PACKAGES += \
