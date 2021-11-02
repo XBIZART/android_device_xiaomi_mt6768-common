@@ -433,7 +433,9 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd@1.0 \
     android.hardware.wifi.hostapd@1.0.vendor \
     android.hardware.wifi.hostapd@1.1 \
-    android.hardware.wifi.hostapd@1.1.vendor
+    android.hardware.wifi.hostapd@1.1.vendor \
+    android.hardware.wifi.hostapd@1.2 \
+    android.hardware.wifi.hostapd@1.2.vendor
 
 PRODUCT_PACKAGES += \
     WifiOverlay \
