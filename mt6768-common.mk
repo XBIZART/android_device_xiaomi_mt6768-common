@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # IMS
-$(call inherit-product, vendor/mediatek-ims/ims-vendor.mk)
+$(call inherit-product, vendor/mediatek/ims/ims-vendor.mk)
 
 # APNs
 PRODUCT_COPY_FILES += \
